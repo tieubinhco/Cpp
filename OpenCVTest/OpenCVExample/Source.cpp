@@ -12,7 +12,7 @@ int main()
 		Mat frame;
 		cap >> frame;
 		imshow("Webcam", frame);	
-		if (waitKey(30))
+		if (waitKey(15)==27)
 			break;
 	}
 	return 0;
