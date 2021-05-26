@@ -1,2 +1,0 @@
-D:\GitHub\Cpp\OpenCVTest\OpenCVExample\x64\Debug\OpenCVExample.exe
-D:\GitHub\Cpp\OpenCVTest\OpenCVExample\x64\Debug\OpenCVExample.pdb
