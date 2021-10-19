@@ -6,7 +6,6 @@
 int main()
 {
     std::cout << "Hello World!\n";
-    system("pause>0");
     return 0;
 }
 
