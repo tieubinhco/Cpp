@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A2Matrix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="About.cpp" />
+    <ClCompile Include="AddSubProduct.cpp" />
+    <ClCompile Include="Contain.cpp" />
+    <ClCompile Include="Control.cpp" />
+    <ClCompile Include="DelRC_to_make_coFactor.cpp" />
+    <ClCompile Include="Det.cpp" />
+    <ClCompile Include="Equal.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MatrixIO.cpp" />
+    <ClCompile Include="MinMax.cpp" />
+    <ClCompile Include="RelationFactor.cpp" />
+    <ClCompile Include="Symmetry,Skew-symmetry.cpp" />
+    <ClCompile Include="Thesame.cpp" />
+    <ClCompile Include="Transpose.cpp" />
+    <ClCompile Include="UserGuide.cpp" />
+    <ClCompile Include="Welcome.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,9 +159,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Matrix.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
