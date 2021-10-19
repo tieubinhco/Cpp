@@ -33,7 +33,7 @@
     <ClCompile Include="MatrixIO.cpp" />
     <ClCompile Include="MinMax.cpp" />
     <ClCompile Include="RelationFactor.cpp" />
-    <ClCompile Include="Symmetry,Skew-symmetry.cpp" />
+    <ClCompile Include="Symmetry.cpp" />
     <ClCompile Include="Thesame.cpp" />
     <ClCompile Include="Transpose.cpp" />
     <ClCompile Include="UserGuide.cpp" />

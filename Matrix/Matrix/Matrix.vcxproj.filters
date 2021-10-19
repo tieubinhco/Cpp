@@ -53,7 +53,7 @@
     <ClCompile Include="RelationFactor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Symmetry,Skew-symmetry.cpp">
+    <ClCompile Include="Symmetry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Thesame.cpp">
