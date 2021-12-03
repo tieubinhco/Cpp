@@ -18,58 +18,37 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="A2Matrix.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="About.cpp" />
-    <ClCompile Include="AddSubProduct.cpp" />
-    <ClCompile Include="Contain.cpp" />
-    <ClCompile Include="Control.cpp" />
-    <ClCompile Include="DelRC_to_make_coFactor.cpp" />
-    <ClCompile Include="Det.cpp" />
-    <ClCompile Include="Equal.cpp" />
-    <ClCompile Include="Matrix.cpp" />
-    <ClCompile Include="MatrixIO.cpp" />
-    <ClCompile Include="MinMax.cpp" />
-    <ClCompile Include="RelationFactor.cpp" />
-    <ClCompile Include="Symmetry.cpp" />
-    <ClCompile Include="Thesame.cpp" />
-    <ClCompile Include="Transpose.cpp" />
-    <ClCompile Include="UserGuide.cpp" />
-    <ClCompile Include="Welcome.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1de82919-5e46-48f0-9a38-7faf5adcac7f}</ProjectGuid>
-    <RootNamespace>Matrix</RootNamespace>
+    <ProjectGuid>{d16b8bdb-0cb3-435a-9ee8-0adb855aac18}</ProjectGuid>
+    <RootNamespace>MatrixCpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -159,6 +138,27 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Matrix\About.cpp" />
+    <ClCompile Include="..\Matrix\AddSubProduct.cpp" />
+    <ClCompile Include="..\Matrix\Contain.cpp" />
+    <ClCompile Include="..\Matrix\Control.cpp" />
+    <ClCompile Include="..\Matrix\DelRC_to_make_coFactor.cpp" />
+    <ClCompile Include="..\Matrix\Det.cpp" />
+    <ClCompile Include="..\Matrix\Equal.cpp" />
+    <ClCompile Include="..\Matrix\Matrix.cpp" />
+    <ClCompile Include="..\Matrix\MatrixIO.cpp" />
+    <ClCompile Include="..\Matrix\MinMax.cpp" />
+    <ClCompile Include="..\Matrix\RelationFactor.cpp" />
+    <ClCompile Include="..\Matrix\Symmetry.cpp" />
+    <ClCompile Include="..\Matrix\Thesame.cpp" />
+    <ClCompile Include="..\Matrix\Transpose.cpp" />
+    <ClCompile Include="..\Matrix\UserGuide.cpp" />
+    <ClCompile Include="..\Matrix\Welcome.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Matrix\A2Matrix.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
