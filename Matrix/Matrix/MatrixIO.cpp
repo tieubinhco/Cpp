@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include "A2Matrix.h"
+//#include "A2Matrix.h"
+
+using namespace std;
 
 void enterRC(int matrix[30][30], int *R, int *C, char matrix_name)
 {
@@ -8,14 +10,15 @@ void enterRC(int matrix[30][30], int *R, int *C, char matrix_name)
     do
     {
         r = 0, c = 0;
-        printf("Enter row of matrix %c: ", matrix_name);
-        scanf("%d", &r);
-        printf("Enter column of matrix %c: ", matrix_name);
-        scanf("%d", &c);
+        cout << "Enter row of matrix %c: " << matrix_name;
+        cin << r;
+        
+        cout << "Enter column of matrix %c: " << matrix_name;
+        cin << c;
         *R = r;
         *C = c;
         if (r <= 0 || c <= 0)
-            printf("\n\nError code: 100222\nMath Error!!!\nNumber of row and column must be positive integers\n\n");
+            continue;
     } while (r <= 0 || c <= 0);
 }
 

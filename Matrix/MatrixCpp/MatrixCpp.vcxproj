@@ -139,22 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Matrix\About.cpp" />
-    <ClCompile Include="..\Matrix\AddSubProduct.cpp" />
-    <ClCompile Include="..\Matrix\Contain.cpp" />
-    <ClCompile Include="..\Matrix\Control.cpp" />
-    <ClCompile Include="..\Matrix\DelRC_to_make_coFactor.cpp" />
-    <ClCompile Include="..\Matrix\Det.cpp" />
-    <ClCompile Include="..\Matrix\Equal.cpp" />
-    <ClCompile Include="..\Matrix\Matrix.cpp" />
-    <ClCompile Include="..\Matrix\MatrixIO.cpp" />
-    <ClCompile Include="..\Matrix\MinMax.cpp" />
-    <ClCompile Include="..\Matrix\RelationFactor.cpp" />
-    <ClCompile Include="..\Matrix\Symmetry.cpp" />
-    <ClCompile Include="..\Matrix\Thesame.cpp" />
-    <ClCompile Include="..\Matrix\Transpose.cpp" />
-    <ClCompile Include="..\Matrix\UserGuide.cpp" />
-    <ClCompile Include="..\Matrix\Welcome.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Matrix\A2Matrix.h" />
