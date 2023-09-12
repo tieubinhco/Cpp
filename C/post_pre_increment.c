@@ -17,6 +17,6 @@ int main()
     int t=5;
     int *ptr=&t;
     increment(ptr);
-    printf("\nValue of x: %d", t);
+    printf("\nValue of x: %d", t); //t=6
     return 0;
 }
